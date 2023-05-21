@@ -1,0 +1,706 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1676268802324707, "dur": 771648, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676268802325612, "dur": 13135, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676268802338853, "dur": 747506, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676268803086371, "dur": 9983, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676268809431357, "dur": 751586, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676268809431602, "dur": 2264, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676268809433867, "dur": 736333, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676268810170201, "dur": 12741, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676268810183337, "dur": 25, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1676268809514651, "dur":1332, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268809515991, "dur":108, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1676268809516110, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1676268809516129, "dur":270, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1676268809516414, "dur":370, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268809516784, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139284, "dur":144, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139428, "dur":46, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139474, "dur":42, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139516, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139526, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139527, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139533, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139535, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139540, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139541, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139546, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139547, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139556, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139557, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139561, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139562, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139567, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139568, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139572, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139573, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139577, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139579, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139583, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139584, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139590, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139607, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810139622, "dur":5593, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1676268809516443, "dur":346, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809516790, "dur":2887, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809519685, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1676268809519686, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809519702, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1676268809519703, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809519745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809571033, "dur":1961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1676268809572996, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1676268809573015, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809573031, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809574803, "dur":430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1676268809575247, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1676268809575264, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809575289, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809575521, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1676268809576635, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1676268809576681, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809576701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809576709, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1676268809577820, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1676268809577843, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809577861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809577869, "dur":558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1676268809578454, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1676268809578484, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809578508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809578518, "dur":794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1676268809579333, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1676268809579356, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809579372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809579379, "dur":594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1676268809579988, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1676268809580003, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809580015, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809580039, "dur":693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1676268809580745, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809580766, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809580789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809580882, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809581785, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809581800, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809581811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809581833, "dur":3147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809584995, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809585011, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809585023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809585027, "dur":11773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809596818, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1676268809596837, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809596850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809596855, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1676268809598025, "dur":533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing.exe" }}
+,{ "pid":12345, "tid":1, "ts":1676268809598559, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809598580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809598584, "dur":620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing.exe" }}
+,{ "pid":12345, "tid":1, "ts":1676268809599213, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1676268809599237, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809599261, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809599397, "dur":2407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1676268809601818, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809601829, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809601845, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809601933, "dur":621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809602565, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809602576, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809602592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809602621, "dur":435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809603063, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809603069, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809603079, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809603097, "dur":464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809603569, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809603578, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809603596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809603602, "dur":475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809604086, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809604093, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809604110, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809604115, "dur":599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809604720, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809604726, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809604738, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809604741, "dur":405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809605153, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809605161, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809605173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809605177, "dur":493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809605678, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809605690, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809605709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809605715, "dur":409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809606131, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809606140, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809606153, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809606157, "dur":391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809606555, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809606564, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809606576, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809606582, "dur":384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809606972, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809606983, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809606995, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809606998, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809607783, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809607792, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809607807, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809607811, "dur":427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809608246, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809608252, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809608264, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809608268, "dur":367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809608641, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809608647, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809608659, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809608662, "dur":358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809609025, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809609031, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809609043, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809609047, "dur":681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809609741, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809609752, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809609776, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809609781, "dur":608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809610398, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809610406, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809610422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809610428, "dur":603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809611038, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809611043, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809611056, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809611059, "dur":399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809611465, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809611471, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809611483, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809611486, "dur":535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809612027, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809612037, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809612064, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809612068, "dur":375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809612449, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809612457, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809612469, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809612474, "dur":1124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809613604, "dur":61203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809674808, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809674858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809674864, "dur":700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809675572, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809675580, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809675598, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809675603, "dur":600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809676210, "dur":36593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809712803, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809712850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809712856, "dur":662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809713530, "dur":118714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809832245, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809832290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676268809832297, "dur":664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676268809832970, "dur":306327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809516475, "dur":323, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809516798, "dur":2886, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809519685, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1676268809519745, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809519781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809672004, "dur":483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1676268809672503, "dur":46494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809718997, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809719039, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809719046, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809719861, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809720240, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809720268, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809720274, "dur":548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809720831, "dur":17440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809738272, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809738357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809738364, "dur":664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809739038, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809739465, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809739493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809739500, "dur":522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809740033, "dur":462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809740495, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809740520, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809740524, "dur":499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809741032, "dur":13370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809754402, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809754439, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809754444, "dur":604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809755058, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809755067, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809755089, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809755095, "dur":826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809755935, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809755942, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809755961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809755966, "dur":2448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809758425, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809758434, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809758506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809758513, "dur":1530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809760053, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809760062, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809760275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809760281, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809761146, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809761160, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809761178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809761184, "dur":1147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809762339, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809762347, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809762364, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809762367, "dur":615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809762991, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809762997, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809763011, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809763015, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809764410, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809764418, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809764440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809764446, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809765386, "dur":91835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809857222, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809857272, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676268809857279, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676268809858079, "dur":281224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809516467, "dur":326, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809516793, "dur":2891, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809519685, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1676268809519759, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809519795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809722424, "dur":459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1676268809722897, "dur":456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809723353, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809723392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809723399, "dur":629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809724036, "dur":29907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809753944, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809753994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809754001, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809754812, "dur":592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809755405, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809755437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809755442, "dur":720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809756171, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809756178, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809756413, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809756418, "dur":881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809757317, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809757332, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809757360, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809757366, "dur":833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809758216, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809758230, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809758259, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809758265, "dur":908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809759186, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809759198, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809759221, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809759226, "dur":848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809760081, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809760090, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809760278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809760284, "dur":687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809760981, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809760990, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809761065, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809761070, "dur":675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809761752, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809761759, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809761806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809761812, "dur":1879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809763700, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809763712, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809763731, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809763736, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809764600, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809764607, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809764632, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809764637, "dur":703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809765347, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809765353, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809765373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809765378, "dur":602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809765989, "dur":71942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809837952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676268809837958, "dur":827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676268809838794, "dur":300463, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676268809516498, "dur":304, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676268809516802, "dur":2879, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676268809519685, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1676268809519757, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676268809519825, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676268809914115, "dur":690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1676268809914820, "dur":224463, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676268809516519, "dur":286, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676268809516806, "dur":2905, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676268809519711, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1676268809519766, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676268809519825, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676268809863710, "dur":589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1676268809864314, "dur":274943, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809516546, "dur":263, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809516809, "dur":2873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809519685, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1676268809519736, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809519757, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809621640, "dur":534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1676268809622188, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809622197, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809622212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809622217, "dur":651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809622878, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809622886, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809622904, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809622909, "dur":530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809623448, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809623457, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809623475, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809623480, "dur":739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809624229, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809624238, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809624264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809624270, "dur":739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809625017, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809625023, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809625037, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809625042, "dur":675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809625727, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809625740, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809625759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809625765, "dur":686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809626460, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809626468, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809626485, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809626490, "dur":672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809627171, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809627179, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809627321, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809627327, "dur":715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809628051, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809628059, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809628078, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809628084, "dur":521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809628614, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809628624, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809628642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809628648, "dur":475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809629131, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809629138, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809629157, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809629162, "dur":634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809629805, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809629812, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809629830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809629836, "dur":467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809630310, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809630318, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809630335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809630341, "dur":510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809630861, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809630868, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809630888, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809630893, "dur":662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809631564, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809631573, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809631612, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809631617, "dur":737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809632363, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809632371, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809632389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809632395, "dur":480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809632883, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809632890, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809632907, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809632912, "dur":640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809633561, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809633568, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809633583, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809633586, "dur":546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809634255, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809634266, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809634303, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809634307, "dur":408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809634722, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809634728, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809634741, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809634745, "dur":605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809635360, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809635366, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809635379, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809635382, "dur":641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809636031, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809636044, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809636059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809636065, "dur":645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809636720, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809636728, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809636766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809636772, "dur":564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809637343, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809637349, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809637362, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809637368, "dur":500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809637874, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809637880, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809637894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809637898, "dur":413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809638319, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809638324, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809638379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809638383, "dur":723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809639113, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809639121, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809639135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809639156, "dur":575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809639741, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809639749, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809639767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809639774, "dur":463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809640244, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809640249, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809640261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809640265, "dur":526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809640798, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809640810, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809640822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809640826, "dur":404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809641236, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809641242, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809641255, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809641259, "dur":659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809641928, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809641936, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809641955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809641961, "dur":492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809642462, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809642473, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809642491, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809642496, "dur":522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809643024, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809643031, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809643045, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809643049, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809643739, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809643748, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809643776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809643782, "dur":601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809644392, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809644400, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809644418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809644424, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809645579, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809645587, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809645601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809645605, "dur":488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809646104, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809646112, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809646132, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809646138, "dur":528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809646674, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809646686, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809646704, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809646709, "dur":668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809647384, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809647391, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809647429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809647435, "dur":470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809647911, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809647917, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809647932, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809647935, "dur":566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809648511, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809648519, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809648538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809648544, "dur":465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809649016, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809649022, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809649035, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809649039, "dur":568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809649614, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809649622, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809649635, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809649652, "dur":391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809650050, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809650056, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809650068, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809650071, "dur":440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809650517, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809650523, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809650537, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809650541, "dur":341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809650888, "dur":18526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809669415, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809669461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809669467, "dur":702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809670179, "dur":46243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809716424, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809716478, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809716488, "dur":954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809717456, "dur":555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809718012, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809718049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809718106, "dur":755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809718872, "dur":23186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809742058, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809742089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809742094, "dur":629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809742734, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809743218, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809743275, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809743280, "dur":456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809743745, "dur":15989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809759739, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809759782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809759787, "dur":949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809760747, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809760755, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809760777, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809760782, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809761646, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809761655, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809761674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809761679, "dur":2218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809763908, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809763917, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809763941, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809763947, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809764935, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809764942, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809764988, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809764992, "dur":2874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676268809767880, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1676268809767996, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809768022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809768279, "dur":465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1676268809768753, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1676268809768768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809768800, "dur":662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1676268809769473, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1676268809769485, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809769491, "dur":585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1676268809770085, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":6, "ts":1676268809770097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809770103, "dur":3058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":6, "ts":1676268809773170, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676268809773178, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809773182, "dur":13063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676268809786253, "dur":558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1676268809786812, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809786835, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809786838, "dur":738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1676268809787587, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1676268809787598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809787603, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1676268809788834, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1676268809788848, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809788853, "dur":685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1676268809789551, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1676268809789561, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809789566, "dur":683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1676268809790256, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1676268809790264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809790284, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1676268809791238, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1676268809791340, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809791362, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676268809791367, "dur":408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1676268809791781, "dur":347508, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676268809516561, "dur":252, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676268809516813, "dur":2870, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676268809519685, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1676268809519747, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676268809519787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676268809773704, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1676268809774398, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1676268809774412, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676268809774416, "dur":648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1676268809775075, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1676268809775086, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676268809775092, "dur":672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1676268809775773, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":7, "ts":1676268809775785, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676268809775790, "dur":1950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":7, "ts":1676268809777751, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1676268809777784, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676268809777790, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1676268809779999, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1676268809780012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676268809780019, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1676268809781031, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1676268809781043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676268809781049, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1676268809782469, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1676268809782481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676268809782487, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1676268809783858, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1676268809783870, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676268809783875, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1676268809785589, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1676268809785702, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676268809785727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676268809785734, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1676268809786408, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1676268809786420, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676268809786425, "dur":2119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1676268809788555, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/level4" }}
+,{ "pid":12345, "tid":7, "ts":1676268809788570, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676268809788598, "dur":774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/level4" }}
+,{ "pid":12345, "tid":7, "ts":1676268809789381, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1676268809789391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676268809789396, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1676268809790120, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1676268809790130, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676268809790134, "dur":605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1676268809790746, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1676268809790755, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676268809790758, "dur":609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/RiseOfTheMokeyKing_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1676268809791374, "dur":347913, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676268809516577, "dur":240, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676268809516817, "dur":3006, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676268809519824, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1676268809519863, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676268809519884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676268810138449, "dur":760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1676268810139227, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1676268810139228, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676268809516599, "dur":221, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676268809516820, "dur":2959, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676268809519783, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1676268809519812, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676268809519835, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676268810088169, "dur":731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1676268810088923, "dur":50368, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676268809516617, "dur":207, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676268809516824, "dur":2951, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676268809519777, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1676268809519804, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676268809519826, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676268809975970, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1676268809976954, "dur":162345, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676268809516633, "dur":194, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676268809516828, "dur":2941, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676268809519771, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1676268809519810, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676268809519831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676268810026076, "dur":528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1676268810026628, "dur":112644, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676268809516651, "dur":180, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676268809516831, "dur":2907, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676268809519741, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1676268809519783, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676268809519826, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676268809823614, "dur":734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Brower/Documents/Trabajos/Programacin/Nueva carpeta (2)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1676268809824371, "dur":314916, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676268810148374, "dur":1705, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1676268810183404, "dur": 471, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676268810183325, "dur": 563, "ph": "X", "name": "Write chrome-trace events", "args": {} },
